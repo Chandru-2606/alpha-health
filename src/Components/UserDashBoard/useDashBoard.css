@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.user-container{
+    width: 100%;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+.editPatients-header{
+    height: 70px;
+    background-color: #1b4a86;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.editPatients-header a{
+    margin-top: 20px;
+    padding-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.editPatients-header button{
+    margin-right: 30px;
+    background-color: #1b4a86;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+#addappoinement-btn{
+   float: right;
+   margin-right: 200px;
+   margin-top: 40px;
+   /* height: 200px; */
+}
+
+#addappoinement-btn button{
+    border: none;
+    background-color: #dd5353;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.test{
+    height: 100px;
+}
+.appoinment-details ul{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    /* margin-top: 20px; */
+    list-style-type: none;
+    border: 1px solid #e5e8eb;
+    text-align: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.appoinment-details1 ul{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    /* margin-top: 20px; */
+    list-style-type: none;
+    border: 1px solid #e5e8eb;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(236,245,253);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.appoinment-details ul li{
+    width: 25%;
+    border-right: 1px solid #e5e8eb;
+    padding-top: 10px;
+}
+.appoinment-details1 ul li{
+    width: 25%;
+    border-right: 1px solid #e5e8eb;
+    padding-top: 10px;
+}
+
+.appoinment-details button{
+   margin-left: 50px;
+   background-color: #46a6ff;
+   border: none;
+   height: 30px;
+   margin-top: 5px;
+   width: 150px;
+   border-radius: 5px;
+   color: white;
+}

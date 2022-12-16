@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.edit-header{
+    height: 70px;
+    background-color: #1b4a86;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.edit-header a{
+    margin-top: 20px;
+    padding-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-header button{
+    margin-right: 30px;
+    background-color: #1b4a86;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.edit-btn{
+    width: 81%;
+     /* text-align: center; */
+     display: flex;
+     justify-content: center;
+}
+.edit-btn button{
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #498ef5;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.docotr-container{
+    background-color: #f9f9f9;
+    height: 100vh;
+
+}
+.header{
+    height: 70px;
+    background-color: #1b4a86;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header a{
+    margin-top: 20px;
+    padding-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.test{
+    height: 80px;
+}
+
+.head{
+    margin: auto;
+    width: 80%;
+}
+.header button{
+    margin-right: 30px;
+    background-color: #1b4a86;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.doctor-details1 ul{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    /* margin-top: 20px; */
+    list-style-type: none;
+    border: 1px solid #e5e8eb;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(236,245,253);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.doctor-details1 ul li{
+    width: 33.33%;
+    border-right: 1px solid #e5e8eb;
+    padding-top: 10px;
+}
+
+.doctor-details ul{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+    /* margin-top: 20px; */
+    list-style-type: none;
+    border: 1px solid #e5e8eb;
+    text-align: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.doctor-details ul li{
+    width: 33.33%;
+    border-right: 1px solid #e5e8eb;
+    padding-top: 10px;
+}
+
+
+.no-appoin{
+    color: red;
+    margin-left: 300px;
+    font-weight: bolder;
+    font-size: 20px;
+}

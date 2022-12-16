@@ -1,0 +1,94 @@
+.admin-container{
+    width: 100%;
+    background-color: #f8f8f8;
+    height: auto;
+    padding-bottom: 50px;
+}
+.conatiner{
+   width: 70%;
+   margin: auto;
+}
+.head-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-list h3{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.head-list button{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(221,83,83);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.admin-doclist1 ul{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    line-height: 1.5;
+    /* margin-top: 20px; */
+    list-style-type: none;
+    border: 1px solid #e5e8eb;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(236,245,253);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.admin-doclist1 ul li{
+    width: 20%;
+    border-right: 1px solid #e5e8eb;
+    padding-top: 10px;
+    color: #e06782;
+}
+.admin-doclist ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid #e5e8eb;
+    text-align: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+}
+.admin-doclist ul li{
+    width: 20%;
+    border-right: 1px solid #e5e8eb;
+    padding-top: 10px;
+}
+.admin-doclist button{
+    margin: auto;
+    background-color: #1890ff;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.appoinmentData{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid #e5e8eb;
+    text-align: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.appoinmentData li{
+    width: 25%;
+    border-right: 1px solid #e5e8eb;
+    padding-top: 10px;
+}

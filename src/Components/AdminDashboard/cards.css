@@ -1,0 +1,21 @@
+.editDoc{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.editDoc-container{
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+    line-height: 50px;
+}
+input{
+  width: 90%;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: 1px solid #cacccd;
+}
+
